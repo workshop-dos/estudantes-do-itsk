@@ -16,11 +16,17 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="css/misc.css">
+	<link rel="stylesheet" href="css/blue-scheme.css">
 
   <!-- fonts style -->
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <link rel="shortcut icon" href="images/mini.png">
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" /></head>
 
@@ -555,104 +561,206 @@
 
   </section>
 
-  <section style="color: white; overflow: hidden;">
-    <div class="heading_container">
-      <br>
-      <br>
-      <h2 class="ttxt" style="margin: auto; text-align: center;">
-        <span class="v1">Já Estamos </span> <span class="v3">de Volta!</span>
-      </h2>
-      <p class="ttxt" style="margin: auto; color: black; display: none;">
-        Estes são os Estudantes que vão falar para nós como Moderadores e Prelectores.
-      </p>
-      <p class="ttxt" style="margin: 30px auto 10px auto; color: black; width: 90%; text-align: center;">
-        O Terceiro workshop retorna com grande sucesso, trazendo consigo uma abordagem inovadora e revolucionária, consolidando-se como um evento de referência para a discussão e o desenvolvimento de soluções criativas e eficazes.
-      </p>
-    </div>
-    <div class="slidershow-contain bbox">
-      <div class="mySlidess ffade">
-        <img src="images/Brevemente.jpg" style="width: 100%;">
-      </div>
-      
-      <section style="display: none;">
-        <div class="mySlidess ffade">
-          <img src="images/José Fela.png" style="width: 100%;">
-        </div>
-    
-        <div class="mySlidess ffade">
-          <img src="images/Dagmar Lopes.png" style="width: 100%;">
-        </div>
-  
-        <div class="mySlidess ffade">
-          <img src="images/Inês Alberto.png" style="width: 100%;">
-        </div>
-  
-        <div class="mySlidess ffade">
-          <img src="images/Eurico Viola.png" style="width: 100%;">
-        </div>
-    
-        <div class="mySlidess ffade">
-          <img src="images/Brígida Cahenda.png" style="width: 100%;">
-        </div>
-    
-        <div class="mySlidess ffade">
-          <img src="images/Rosa Fortunato.png" style="width: 100%;">
-        </div>
-    
-        <div class="mySlidess ffade">
-          <img src="images/Ana Cadete.png" style="width: 100%;">
-        </div>
-    
-    <div class="mySlidess ffade">
-          <img src="images/Abraão Bumba.png" style="width: 100%;">
-        </div>
-    
-        <div class="mySlidess ffade">
-          <img src="images/Joaquim Manuel.png" style="width: 100%;">
-        </div>
-        
-        <div class="mySlidess ffade">
-          <img src="images/Fábio Tchioleca.png" style="width: 100%;">
-        </div>
-        
-        <div class="mySlidess ffade">
-          <img src="images/Luís Gabriel.png" style="width: 100%;">
-        </div>
-        
-        <div class="mySlidess ffade">
-          <img src="images/Letícia Dala.png" style="width: 100%;">
-        </div>
-        
-        <div class="mySlidess ffade">
-          <img src="images/Teresa Lourenço.png" style="width: 100%;">
-        </div>
-  
-        <a class="prevv" onclick="maisSlides(-1)">&#10094;</a>
-        <a class="nextt" onclick="maisSlides(1)">&#10095;</a>
-    
-        <br>
-    
-        <div style="text-align: center;" class="bbox2">
-          <span class="dottes" onclick="sliderAtual(1)"></span>
-          <span class="dottes" onclick="sliderAtual(2)"></span>
-          <span class="dottes" onclick="sliderAtual(3)"></span>
-          <span class="dottes" onclick="sliderAtual(4)"></span>
-          <span class="dottes" onclick="sliderAtual(5)"></span>
-          <span class="dottes" onclick="sliderAtual(6)"></span>
-          <span class="dottes" onclick="sliderAtual(7)"></span>
-          <span class="dottes" onclick="sliderAtual(8)"></span>
-          <span class="dottes" onclick="sliderAtual(9)"></span>
-          <span class="dottes" onclick="sliderAtual(10)"></span>
-          <span class="dottes" onclick="sliderAtual(11)"></span>
-          <span class="dottes" onclick="sliderAtual(12)"></span>
-          <span class="dottes" onclick="sliderAtual(13)"></span>
-          <span class="dottes" onclick="sliderAtual(14)"></span>
-          <!--<span class="dottes" onclick="sliderAtual(15)"></span>-->
-  
-        </div>
-      </section>
-    </div>
-  </section>
+	<section class="dark-content portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header heading_container">
+            <h2 class="ttxt" style="margin: auto; text-align: center;">
+              <span class="v1">Prelectores e Moderadores!</span>
+            </h2>
+            <br>
+						<p class="section-desc">O Terceiro workshop retorna com grande sucesso, trazendo consigo uma abordagem inovadora e revolucionária, consolidando-se como um evento de referência para a discussão e o desenvolvimento de soluções criativas e eficazes.</p>
+					</div> <!-- /.section-header -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		
+		<div id="portfolio-carousel" class="portfolio-carousel portfolio-holder">
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Dashboard Template</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Visual Admin</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project1.jpg" title="Visual Admin">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project1.jpg" alt="Visual Admin">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Mobile Ready</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Compass Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project2.jpg" title="Compass Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project2.jpg" alt="Compass Template">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Responsive Design</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Awesome Theme</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project3.jpg" title="Awesome Theme">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project3.jpg" alt="Awesome Theme">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Volton Personal Site</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project4.jpg" title="Volton Personal Site">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project4.jpg" alt="Volton Personal Site">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Green</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Rectangle Design</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project5.jpg" title="Rectangle Design">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project5.jpg" alt="Rectangle Design">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Masonry Gallery</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project6.jpg" title="Masonry Gallery">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project6.jpg" alt="Masonry Gallery">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Branding / Identity</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Gloss Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project7.jpg" title="Gloss Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project7.jpg" alt="Gloss Template">
+				</div>
+      </div> <!-- /.item -->
+      <div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Green</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Rectangle Design</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project5.jpg" title="Rectangle Design">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project8.jpg" alt="Rectangle Design">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Masonry Gallery</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project6.jpg" title="Masonry Gallery">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project9.jpg" alt="Masonry Gallery">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Branding / Identity</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Gloss Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project7.jpg" title="Gloss Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project10.jpg" alt="Gloss Template">
+				</div>
+      </div> <!-- /.item -->
+		</div> <!-- /#owl-demo -->
+	</section>
+<br>
+<br>
 
   <!-- end team section -->
 
@@ -772,7 +880,7 @@
             
             if (iii.value != "" && eee.value != "" && ddd.value != "") {
         
-            var numero = "244957712435";
+            var numero = "244953808136";
             var mensagem = "Olá " + document.getElementById("nome").value+ " " + document.getElementById("sobrenome").value + "(" + document.getElementById("description").value + "). " + "Envie essa mensagem para confirmar o seu cadastro!";
             var url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
             window.open(url, '_blank');
@@ -893,8 +1001,9 @@
   </div>                                                                                                        
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="js/min/plugins.min.js"></script>
+	<script src="js/min/medigo-custom.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
 </body>
-
 
 </html>
